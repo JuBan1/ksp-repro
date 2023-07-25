@@ -1,0 +1,19 @@
+[versions]
+kotlin = "1.8.21"
+ksp = "1.8.21-1.0.11"
+
+#kotlin = "1.9.0"
+#ksp = "1.9.0-1.0.11"
+
+koin = "3.4.1"
+koinKsp = "1.2.2"
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+
+[libraries]
+koin = { module = "io.insert-koin:koin-core", version.ref = "koin" }
+koin-test = { module = "io.insert-koin:koin-test", version.ref = "koin" }
+koin-annotations = { module = "io.insert-koin:koin-annotations", version.ref = "koinKsp" }
+koin-ksp = { module = "io.insert-koin:koin-ksp-compiler", version.ref = "koinKsp" }

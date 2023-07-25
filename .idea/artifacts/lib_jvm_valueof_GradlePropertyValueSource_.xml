@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="lib-jvm-valueof(GradlePropertyValueSource)">
+    <output-path>$PROJECT_DIR$/lib/build/libs</output-path>
+    <root id="archive" name="lib-jvm-valueof(GradlePropertyValueSource).jar">
+      <element id="module-output" name="ksp-repro.lib.jvmMain" />
+    </root>
+  </artifact>
+</component>
